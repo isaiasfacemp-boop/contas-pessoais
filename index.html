@@ -862,7 +862,7 @@ function openMenu(){
     <div class="pcard" style="margin-top:-4px">
       <div class="k">${nG} lançamento${nG===1?'':'s'} · ${nP} parcela${nP===1?'':'s'}</div>
       <div style="font-weight:700;margin-top:4px;color:${dd===null||dd>15?'var(--amb)':'var(--grn)'}">${ub?(dd===0?'✓ Último backup: hoje':`Último backup: ${brDate(ub)} (há ${dd} dia${dd===1?'':'s'})`):'⚠️ Você ainda não fez nenhum backup'}</div>
-      <div class="small" style="margin-top:4px">${col?'Seus dados também ficam salvos na sua conta Claude.':'Seus dados estão salvos só neste celular/navegador.'}</div>
+      <div class="small" style="margin-top:4px">Seus dados ficam salvos na nuvem na sua conta.</div>
     </div>
     <div class="btns">
       <button class="btn" id="btnInstall" onclick="instalarApp()" style="background:#2563eb;display:none">📲 Instalar app no celular</button>
