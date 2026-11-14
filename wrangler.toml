@@ -8,4 +8,4 @@ assets = { directory = "./" }
 [[d1_databases]]
 binding = "DB"
 database_name = "contas_pessoais"
-database_id = "database_id = "545b96fa-2dc0-4703-bada-c216dd0766c8""
+database_id = "545b96fa-2dc0-4703-bada-c216dd0766c8""
