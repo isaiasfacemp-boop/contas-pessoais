@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- fundo arredondado -->
+  <rect width="512" height="512" rx="110" fill="#0f172a"/>
+
+  <!-- carteira / wallet -->
+  <!-- corpo da carteira -->
+  <rect x="80" y="160" width="352" height="230" rx="30" fill="#1e293b"/>
+  <rect x="80" y="195" width="352" height="195" rx="20" fill="#334155"/>
+
+  <!-- aba de cima -->
+  <rect x="80" y="155" width="250" height="55" rx="18" fill="#1e293b"/>
+
+  <!-- bolso direito (porta-moedas) -->
+  <rect x="310" y="230" width="122" height="100" rx="18" fill="#0f172a"/>
+  <!-- moeda no bolso -->
+  <circle cx="371" cy="280" r="30" fill="#f59e0b"/>
+  <text x="371" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#0f172a">R$</text>
+
+  <!-- listras de cartão à esquerda -->
+  <rect x="105" y="250" width="170" height="14" rx="7" fill="#475569"/>
+  <rect x="105" y="278" width="120" height="14" rx="7" fill="#475569"/>
+  <rect x="105" y="306" width="90"  height="14" rx="7" fill="#475569"/>
+</svg>

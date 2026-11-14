@@ -1,0 +1,11 @@
+name = "contas-pessoais"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Serve o index.html como site estático
+assets = { directory = "./" }
+
+[[d1_databases]]
+binding = "DB"
+database_name = "contas_pessoais"
+database_id = "COLE_AQUI_O_DATABASE_ID"
